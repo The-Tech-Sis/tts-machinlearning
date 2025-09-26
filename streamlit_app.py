@@ -10,7 +10,7 @@ st.info('This app is for a machine learning deployed model')
 
 with st.expander('Data'):
   st.write('**Raw data**')
-  df = pd.read_csv['https://raw.githubusercontent.com/dataprofessor/streamlit_freecodecamp/refs/heads/main/app_8_classification_penguins/penguins_cleaned.csv']
+  df = pd.read_csv[https://raw.githubusercontent.com/dataprofessor/streamlit_freecodecamp/refs/heads/main/app_8_classification_penguins/penguins_cleaned.csv]
   df
 
   st.write('**x**')
