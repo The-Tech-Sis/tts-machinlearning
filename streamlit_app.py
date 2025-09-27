@@ -27,7 +27,7 @@ with st.expander('Data Visualization 1'):
 #"species","island","bill_length_mm","bill_depth_mm","flipper_length_mm","body_mass_g","sex"
   st.scatter_chart(data=df, x='bill_length_mm', y='body_mass_g', color='species')
   #st.area_chart(data=df, x='species', y='island', stack='True',color='species')
-  df = pd.DataFrame(rng(0).standard_normal((20, 3)), columns=[x='species', y='island'])
+  df = pd.DataFrame(rng(0).standard_normal((20, 3)), columns=['species', 'island'])
   st.area_chart(df)
 #Data Preparation
 #with st.expander('Data Preparation'):
