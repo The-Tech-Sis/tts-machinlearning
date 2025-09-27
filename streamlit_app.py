@@ -28,3 +28,4 @@ with st.expander('Data Visualization'):
 
 
 #Data Preparation
+with st.expander('Data Preparation')
