@@ -33,7 +33,7 @@ with st.expander('Data Visualization 1'):
   # -------------------------------------------------------- Example 1: Create sample data ------------------------------------------------------- #
   data = pd.DataFrame(
       np.random.randn(20, 3),  # 20 rows, 3 columns of random data
-      columns=['Category A', 'Category B', 'Category C']
+      columns=['species']
   )
   
   # Display the area chart
