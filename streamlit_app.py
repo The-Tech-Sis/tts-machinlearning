@@ -29,9 +29,6 @@ with st.expander('Data Visualization 1'):
   #st.area_chart(data=df, x='species', y='island', stack='True',color='species')
   #df = pd.DataFrame(rng(0).standard_normal((20, 3)), columns=['species', 'island'])
 
-  # Display the area chart
-  st.area_chart(df)
-
 
   # -------------------------------------------------------- Example 1: Create sample data ------------------------------------------------------- #
   data = pd.DataFrame(
