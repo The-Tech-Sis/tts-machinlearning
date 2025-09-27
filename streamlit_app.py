@@ -64,7 +64,7 @@ with st.expander('Data Visualization 1'):
   # Customization: While st.area_chart is simple, for advanced customization, you can use st.altair_chart with Altair specifications.
 
 #Data Preparation
-with st.expander('Data Preparation'):
+#with st.expander('Data Preparation'):
   
 
 
